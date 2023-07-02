@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main {
+            background-image: url('https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_1280.jpg');
+            background-size: cover;
+            height: 500px;
+            color: #07430f;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: bold;
+            font-style: italic;
+        }
+
+        .navbar {
+            background-color: #cdf1cb;
+        }
+
+        .navbar-brand {
+            color: #1d8313;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar-nav .nav-link {
+            color: #1d8313;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .card-img-top {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fresh Mart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <h1 class="display-4">Welcome to our Grocery Store</h1>
+        <p class="lead fs-4">Fresh and high-quality groceries delivered to your doorstep</p>
+        <a class="btn btn-success btn-lg" href="#" role="button">Shop Now</a>
+    </div>
+
+    <div class="container">
+        <section class="features" id="features ">
+            <h1 class="head1">Our <span> Features </span></h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/box1.1.webp" class="card-img-top " alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh and Organic</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/box2.png" class="card-img-top " alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Free & Fast Delivery</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="./images/box3.jpg" class="card-img-top " alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Easy & Safe Payment</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="products " id="products">
+
+
+        <div class="main-txt">
+            <h1 class="head1">Our <span> Products </span></h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/pr5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fresh Fruits</h3>
+                    <div class="price">$ 4.99/-..$7.85/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/pr2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vegetables</h3>
+                    <div class="price">$10.99/-..$15.00/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart "></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/pr3.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">$15/-..$17.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/pr4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Avocado</h3>
+                    <div class="price">$15.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/1211918_2-bb-royal-long-grain-rice-parmal-5-kg-wheat-flour-chakki-atta-5-kg.jpg"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>Rice & Wheat flour</h3>
+                    <div class="price">$14.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/pr6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Milk products</h3>
+                    <div class="price">$10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about " id="about">
+
+
+        <div class="main-txt ">
+            <h1 class="head1 ps-5 ">About<span> US </span></h1>
+        </div>
+
+
+        <div class="row">
+
+            <div class="content p-5">
+                <h3>We Make Organic Food in Market</h3>
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam rem cupiditate <br>
+                    sequi porro assumenda tenetur rerum modi , pariatur enim quis officiis nesciunt et.........!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo totam aut voluptatum ipsa dolorum.
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor veritatis tempore itaque
+                    expedita <br> quas, error iusto sapiente cupiditate quasi cumque. Quis quasi maxime eaque iste
+                    reprehenderit. <br>
+                    Asperiores officia quas voluptatum.....!
+                </p>
+                <a href="#" class="btn btn-success">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="https://assets1.progressivegrocer.com/files/styles/primary_articles_short/s3/2021-01/Amazon%20Fresh%20Woodland%20Hills_2.teaser.jpg?itok=TIIueHVl"
+                    alt="">
+            </div>
+
+
+        </div>
+    </section>
+    
+    <!-- contact start -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="heading5">Contact <span>Us</span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Odit dignissimos libero
+                        temporibus rem in? Commodi.
+                    </p>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="input eg"><br>
+                    <input type="email" class="form-control" placeholder="Email" aria-label="input eg"><br>
+                    <input type="number" class="form-control" placeholder="Phone" aria-label="input eg"><br>
+                    <button id="contact-btn">Send Message</button>
+                </div>
+                <div class="col-md-5" id="col">
+                    <h1>info</h1>
+                    <p><i class="fa-regular fa-envelope">eabc123@gmail.com</i></p>
+                    <p><i class="fa-solid fa-phone">+91 9776590320</i></p>
+                    <p><i class="fa-solid fa-building-columns">Bypass road kerala india</i></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact end -->
+
+     <!-- footer start -->
+     <footer id="footer">
+        <div class="footer-logo text-center"><img src="./img/logo1.png" alt="">
+        </div>
+        <div class="social-links text-center">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facrbook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="credits text-center">
+            Designed by <a href="a">fresh mart</a>
+        </div>
+        <div class="copyright text-center">
+            &copy;copyright <strong><span>Gocery shop</span></strong>.All Rights Reserved
+        </div>
+    </footer>
+
+    <!-- footer  end -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
